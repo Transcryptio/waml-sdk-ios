@@ -1,0 +1,17 @@
+{
+  "name": "WamlSDK",
+  "version": "0.1.0",
+  "source": "6257d4c6e9b880919ab79c9fb8d7f2031958ce85",
+  "filename": "WamlSDK-0.1.0.zip",
+  "sha256": "2840dca2483683ffaa25db857b5f8decd665bdd40e5e71fd6cadad840a918eba",
+  "xcode": "Xcode 16.4\nBuild version 16F6",
+  "architectures": {
+    "device": [
+      "arm64"
+    ],
+    "simulator": [
+      "arm64",
+      "x86_64"
+    ]
+  }
+}
