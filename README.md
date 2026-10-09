@@ -33,6 +33,16 @@ open YourApp.xcworkspace
 Git-доступ к исходному
 репозиторию и регистрация в Trunk для установки не нужны.
 
+Пока новая версия ещё не появилась в индексе CDN, можно указать опубликованный
+podspec вместо записи с номером версии:
+
+```ruby
+pod 'WamlSDK', :podspec => 'https://raw.githubusercontent.com/Transcryptio/waml-sdk-ios/v0.1.0/WamlSDK.podspec'
+```
+
+Затем выполните тот же `pod install`. Эта запись устанавливает тот же проверенный
+бинарный архив 0.1.0; podspec закреплён Git-тегом, а архив — SHA-256.
+
 ## Открытие формы
 
 Создавайте контроллер и показывайте sheet на main actor:
